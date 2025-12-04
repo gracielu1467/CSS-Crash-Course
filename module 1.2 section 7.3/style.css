@@ -1,0 +1,26 @@
+@keyframes popFade {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+button {
+  animation: popFade 1s ease-out;
+}
+
+  
+.box{
+  display:flex;
+  justify-content: center;
+  background-color: #ffd2b8;
+  color: #4f4a47;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 20px;
+  
+}

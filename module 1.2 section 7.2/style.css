@@ -1,0 +1,25 @@
+@keyframes fadeSlide {
+  from{
+    transform: translateY(-100%);
+  }
+  to{
+    transform: translateY(0);
+  }
+  }
+  
+
+
+.banner{
+  background-color:#8d8ab9;
+  color: rgb(10, 9, 9);
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 10px;
+  display:flex;
+  justify-content: center;
+  animation: fadeSlide 1s ease-in-out;
+  opacity: initial;
+
+  
+
+}
